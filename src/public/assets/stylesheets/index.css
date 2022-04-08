@@ -1,0 +1,147 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url("mars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+header {
+  /* header styles */
+}
+
+main {
+  padding: 40px;
+}
+
+footer {
+  /* footer styles */
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+  li{
+    display:flex;
+    text-align: center;
+    Margin: 10px;
+    text-decoration: crimson;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: bolder;
+  }
+  main {
+    padding: 30px;
+  }
+  #i{
+    display:inline-block;
+    padding: 15px;
+  }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+  li{
+    display:flex;
+    text-align: center;
+    Margin: 20px;
+    text-decoration: crimson;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: bolder;
+  }
+  main {
+    padding: 40px;
+  }
+  #i{
+    display:inline-block;
+    padding: 20px;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+  li{
+    display:flex;
+    text-align: center;
+    Margin: 25px;
+    text-decoration: crimson;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: bolder;
+  }
+  main {
+    padding: 40px;
+  }
+  #i{
+    display:inline-block;
+    padding: 30px;
+  }
+}
+
+
+li{
+  display:flex;
+  text-align: center;
+  Margin: 20px;
+  text-decoration: crimson;
+  color: crimson;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:x-large;
+  font-weight: bolder;
+
+
+}
+#navDiv{
+  display:block;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0%;
+  justify-content: space-around;
+  background-color: rgb(206, 247, 93);
+  border-radius: 350px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+}
+header h1{
+  background-color: rgb(243, 54, 149);
+  padding: 20px;
+  margin: 0%;
+  border-radius: 20px;
+  box-shadow: blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#select{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 0%;
+}
+#explain{
+  color: aliceblue;
+}
+#i{
+  width: 100%;
+  height: auto;
+  display:inline-block;
+  padding: 20px;
+}
